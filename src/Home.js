@@ -7,9 +7,9 @@ import step1 from './assets/temp.jpeg';
 const Home = ({ lang }) => {
   const content = {
     en: {
-      title: "Master Your Harvest",
-      subtitle: "Maximize Your Yield",
-      desc: "Your digital partner for efficient harvest management. Track crops, manage finances, and get accurate acreage measurement + instant invoicing — built for modern harvest operations.",
+      title: "A Digital Partner ",
+      subtitle: "To Track, Manage And Grow Your Harvesting Business.",
+      desc: "Track every field. Every pass. Every acre. Real-time harvest tracking with accurate area and amount calculation, plus smart insights to run your operations better",
       btnPlan: "View Plans",
       btnContact: "Contact Support",
       secure: "Secure payments powered by",
@@ -44,9 +44,9 @@ const Home = ({ lang }) => {
       readStory: "Read Our Story"
     },
     mr: {
-      title: "तुमच्या पिकांचे व्यवस्थापन करा",
-      subtitle: "उत्पन्न आणि नफा वाढवा",
-      desc: "शेती व्यवस्थापनासाठी तुमचा डिजिटल जोडीदार. पिकांची नोंद ठेवा, आर्थिक व्यवहार सांभाळा आणि आधुनिक तंत्रज्ञानासह प्रगती करा.",
+      title: "तुमचा हार्वेस्टिंग व्यवसाय ",
+      subtitle: "ट्रॅक,व्यवस्थापित आणि वाढवण्यासाठी एक डिजिटल पार्टनर.",
+      desc: "प्रत्येक शेत. प्रत्येक फेरी. प्रत्येक एकर.रीअल-टाइम हार्वेस्ट ट्रॅकिंग, अचूक क्षेत्रफळ व रकमेची गणना, आणि तुमचा व्यवसाय अधिक स्मार्टपणे चालवण्यासाठी.",
       btnPlan: "प्लॅन्स पहा",
       btnContact: "संपर्क साधा",
       secure: "सुरक्षित पेमेंट",
@@ -291,7 +291,7 @@ const Home = ({ lang }) => {
         .badge-pill { display:inline-block; background: rgba(39,174,96,0.1); color: var(--primary); padding:6px 16px; border-radius:50px; font-size:0.9rem; font-weight:600; margin-bottom:1.5rem; }
 
         .hero-title { font-size: 3.5rem; line-height:1.05; margin-bottom:1.25rem; font-weight:700; color:var(--secondary); }
-        .text-gradient { background: linear-gradient(to right, var(--primary), var(--primary-dark)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .text-gradient { ,background: linear-gradient(to right, var(--primary), var(--primary-dark)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
         .hero-desc { font-size:1.15rem; color:var(--text-light); line-height:1.6; margin-bottom:1.75rem; max-width:550px; }
 
