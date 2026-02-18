@@ -157,6 +157,15 @@ export const content = {
           termsAndConditions: "Terms & Conditions",
           aboutUs: "About Us",
           refundPolicy: "Refund Policy"
+        },
+        faq: {
+          title: "Frequently Asked Questions",
+          q1: "How does Premium work?",
+          a1: "Premium unlocks unlimited entries, secure cloud backup, and detailed PDF reports for your harvests.",
+          q2: "How do I extend my premium?",
+          a2: "You can renew your subscription through the app settings under 'Manage Subscription'. Payments are processed securely via Razorpay.",
+          q3: "I have a payment issue. What should I do?",
+          a3: "Please contact our support team via the Contact Us page with your transaction ID, and we will resolve it within 24 hours."
         }
       },
       mr: {
@@ -317,6 +326,15 @@ export const content = {
           termsAndConditions: "नियम आणि अटी",
           aboutUs: "आमच्याबद्दल",
           refundPolicy: "परतावा धोरण"
+        },
+        faq: {
+          title: "वारंवार विचारले जाणारे प्रश्न",
+          q1: "प्रीमियम कसे काम करते?",
+          a1: "प्रीमियम अमर्यादित नोंदी, सुरक्षित क्लाउड बॅकअप आणि तुमच्या कापणीसाठी तपशीलवार PDF अहवाल अनलॉक करते.",
+          q2: "मी माझे प्रीमियम कसे वाढवू?",
+          a2: "तुम्ही 'सदस्यता व्यवस्थापित करा' अंतर्गत ॲप सेटिंग्जद्वारे तुमची सदस्यता नूतनीकरण करू शकता. पेमेंट Razorpay द्वारे सुरक्षितपणे प्रक्रिया केली जातात.",
+          q3: "माझ्याकडे पेमेंट समस्या आहे. मी काय करावे?",
+          a3: "कृपया आमच्या समर्थन कार्यसंघाशी संपर्क साधा पृष्ठद्वारे तुमच्या व्यवहार आयडीसह संपर्क साधा आणि आम्ही ते 24 तासांच्या आत निराकरण करू."
         }
       }
     };

@@ -48,7 +48,7 @@ function App() {
             <Route path="/refund-policy" element={<RefundPolicy lang={lang} content={content} />} />
             <Route path="/about-us" element={<AboutUs lang={lang} content={content} />} />
             <Route path="/pricing" element={<Pricing lang={lang} content={content} />} />
-            <Route path="/faq" element={<FAQ lang={lang} content={content} />} />
+            <Route path="/faq" element={<FAQ lang={lang} />} />
             <Route path="/data-safety" element={<DataSafety lang={lang} content={content} />} />
             <Route path="/data-deletion" element={<DataDeletion lang={lang} content={content} />} />
           </Routes>

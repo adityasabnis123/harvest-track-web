@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 // import Spline from '@splinetool/react-spline'; // Uncomment if using Spline
 import step1 from './assets/temp.jpeg';
 import Language from './lang';
-
+import step2 from './assets/bg.jpeg';
+// import step3 from './assets/temp.jpeg';
 
 const Home = ({ lang , content}) => {
   const t = content[lang] || content.en;
@@ -48,7 +49,20 @@ const Home = ({ lang , content}) => {
 
         {/* 3D Container */}
         <div className="home-right three-d-container">
-          {/* Optionally insert Spline or an illustration here */}
+          {
+            //generate a images tag
+            <img 
+              src={step2} 
+              alt="Harvest Track App Preview" 
+              style={{ 
+                width: '100%', 
+                height: '100%', 
+                objectFit: 'cover', 
+                borderRadius: '20px' 
+              }} 
+            />
+            
+          }
         </div>
       </div>
 
